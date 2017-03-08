@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>Remember Inputs</title>
+
+	<link rel="stylesheet" href="/css/popup.css">
+
+	<script type="text/javascript" src="/jquery-3.1.1.slim.min.js"></script>
+	<script type="text/javascript" src="/md5.js"></script>
+	<script type="text/javascript" src="/popup.js"></script>
+</head>
+<body>
+	<div class="popup-container">
+		<div class="action-message" id="action-message"></div>
+
+		<div>
+			<p>
+				Please input store key.
+			</p>
+			<input type="text" id="store-name" class="store-name" value="" name="store-name" placeholder="unique key" maxlength="32">
+		</div>
+		<div class="action-wrapper">
+			<a href="javascript:void(0);" id="store" class="button">store</a>
+			<a href="javascript:void(0);" id="restore" class="button stored-only">restore</a>
+			<a href="javascript:void(0);" id="delete" class="button stored-only">delete</a>
+
+			<a href="javascript:void(0);" id="all-delete" class="button danger-button empty-only">all delete</a>
+		</div>
+
+		<div>
+			<span id="bytes-in-use"></span> / <span id="max-bytes"></span> bytes uses
+		</div>
+	</div>
+
+</body>
+</html>
