@@ -1,8 +1,8 @@
 {
-  "name": "Remember Inputs",
-  "version": "0.0.1",
+  "name": "Remember Form Inputs",
+  "version": "0.1.1",
   "manifest_version": 2,
-  "description": "Remeber input and textarea values.",
+  "description": "Remeber from input values.",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
